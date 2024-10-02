@@ -44,7 +44,7 @@ const Subscribe = () => {
       </div>
       
       {/* Left container */}
-      <div className="left-container w-full lg:w-[40%] h-full bg-white mt-5 order-2 lg:order-1 lg:rounded-l-3xl">
+      <div className="left-container w-full lg:w-[40%] h-full lg:h-auto bg-white mt-5 order-2 lg:order-1 lg:rounded-l-3xl relative lg:top-[10px]">
         <div className="lg:py-20 p-5 lg:p-10">
           <h1 className="lg:text-5xl text-4xl font-bold text-darkSlateGrey">Stay updated!</h1>
           <div>

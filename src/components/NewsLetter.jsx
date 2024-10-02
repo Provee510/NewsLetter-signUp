@@ -34,7 +34,7 @@ const Subscribe = () => {
   }
 
   return (
-    <div className="general-container h-screen flex flex-col lg:flex-row  w-[390px] lg:w-full max-w-none justify-center bg-white lg:bg-gray-800 lg:p-10 px-0">
+    <div className="general-container h-screen flex flex-col lg:flex-row  w-[390px] lg:w-full max-w-none justify-center bg-red-400 lg:bg-gray-800 lg:p-10 px-0">
       
       {/* Right container */}
       <div className="right-container w-full h-[50vh] lg:w-[32%] lg:h-auto flex items-center justify-center order-1 lg:order-2 relative lg:top-[10px] ">
@@ -42,9 +42,9 @@ const Subscribe = () => {
           <img src={right} alt="Newsletter" className="w-[500px] lg:w-[390px] h-full lg:rounded-3xl lg:h-[540px] object-cover rounded-bl-3xl rounded-br-3xl " />
         </div>
       </div>
-      
+       
       {/* Left container */}
-      <div className="left-container w-full lg:w-[40%] h-full lg:h-[620px] bg-white mt-5 order-2 lg:order-1 lg:rounded-l-3xl relative lg:top-[10px]">
+      <div className="left-container w-full lg:w-[40%] h-full lg:h-[550px] bg-white mt-5 lg:mt-0 order-2 lg:order-1 lg:rounded-l-3xl relative lg:top-[10px]">
         <div className="lg:py-20 p-5 lg:p-10">
           <h1 className="lg:text-5xl text-4xl font-bold text-darkSlateGrey">Stay updated!</h1>
           <div>

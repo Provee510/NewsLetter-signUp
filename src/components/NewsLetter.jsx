@@ -168,8 +168,8 @@ const Subscribe = () => {
       
       {/* Right container */}
       <div className="right-container w-full lg:w-[32%] lg:h-[550px] flex items-center justify-center order-1 lg:order-2 relative lg:top-0">
-        <div className="w-full lg:w-[530px] h-full relative bg-white flex items-center rounded-r-3xl">
-          <img src={right} alt="Newsletter" className="w-[500px] lg:w-[400px] lg:h-[520px] h-full lg:rounded-3xl object-cover rounded-bl-3xl rounded-br-3xl" />
+        <div className="w-full lg:w-[530px] h-full relative bg-red-500 flex items-center rounded-r-3xl">
+          <img src={right} alt="Newsletter" className="w-[500px] lg:w-[370px] lg:h-[500px] h-full lg:rounded-3xl object-cover rounded-bl-3xl rounded-br-3xl" />
         </div>
       </div>
        

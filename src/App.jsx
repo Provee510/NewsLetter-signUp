@@ -4,7 +4,7 @@ import Thanks from './components/Thanks';
 
 export const App = () => {
   return (
-   <div className=" ">
+   <div className=" bg-gray-800">
     <NewsLetter/>
     {/* <Thanks/> */}
  <br /> <br /> <br />
